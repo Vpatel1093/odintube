@@ -1,5 +1,6 @@
 body {
   background: #f1f1f1;
+  font-family: 'Roboto'
 }
 
 nav, aside, div {
@@ -35,7 +36,7 @@ nav ul {
 
 aside {
   float: right;
-  margin: 56px 40px 0 0;
+  margin: 56px 40px 100px 0;
   padding: 10px 10px 0px 10px;
 }
 
@@ -58,10 +59,131 @@ aside > img {
   clear: left;
   color: #767676;
   text-align: center;
-  font-family: "Times New Roman", serif;
+  font-weight: 400;
 }
 
 .video-player {
   float: left;
-  margin: 56px 0 0 30px;
+  margin: 56px 0 5px 30px;
+  background: none;
+}
+
+.title-and-views {
+  float: left;
+  width: 735px;
+  margin: 5px 0 0 30px;
+  padding: 0 0 20px 15px;
+}
+
+#tav-1 {
+  width: 715px;
+}
+
+.video-info {
+  float: left;
+  margin: 15px 0 0 30px;
+  width: 750px;
+  padding-top: 10px;
+}
+
+.video-info > h5 {
+  margin-left: 15px;
+  display: inline;
+  font-weight: 400;
+}
+
+#vi-hr {
+  float: left;
+  clear: left;
+  width: 715px;
+  margin-left: 15px;
+  border: 0;
+  border-top: 1px solid #e2e2e2;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+#vi-h5 {
+  display: block;
+  color: #767676;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.comments {
+  float: left;
+  margin: 15px 0 100px 30px;
+  width: 750px;
+  padding-top: 10px;
+}
+
+#comments-h5 {
+  display: inline;
+  font-weight: 400;
+  margin-left: 15px;
+}
+
+#comments-1 {
+  vertical-align: top;
+  margin-top: 23px;
+  height: 60px;
+}
+
+#comments-1, #comments-3 {
+  margin-left: 15px;
+}
+
+#comments-2 {
+  width: 650px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+#comments-3 {
+  margin-top: 10px;
+}
+
+.comment img {
+  float: left;
+}
+
+.blue-text {
+  color: #128ee9;
+  font-weight: 900;
+}
+
+.grey-text {
+  color: #767676;
+  font-weight: 900;
+}
+
+.comment {
+  display: inline-block;
+  white-space: nowrap;
+  width: 400px;
+}
+
+.comment * {
+  margin: 1px 5px 1px 0;
+}
+
+.comment #comment {
+  font-weight: 400;
+}
+
+.comment h5, .comment h6 {
+  float: left;
+}
+
+#like-dislike {
+  margin-top: -4px;
+}
+
+footer {
+  width: 100%;
+}
+
+#footer {
+  float: left;
+  width: 100%;
 }
